@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/3. TRAINING GUIDE/2. GIAO AN/Android 9.5 days/Project/MusicPlayer/app/src/main/res/layout/activity_new_alarm.xml" value="0.1530701754385965" />
+        <entry key="..\:/3. TRAINING GUIDE/2. GIAO AN/Android 9.5 days/Project/MusicPlayer/app/src/main/res/layout/fragment_global_time.xml" value="0.1530701754385965" />
+        <entry key="..\:/3. TRAINING GUIDE/2. GIAO AN/Android 9.5 days/Project/MusicPlayer/app/src/main/res/layout/fragment_stop_watch.xml" value="0.1" />
+        <entry key="..\:/3. TRAINING GUIDE/2. GIAO AN/Android 9.5 days/Project/MusicPlayer/app/src/main/res/menu/alarm_menu.xml" value="0.1530701754385965" />
+        <entry key="..\:/3. TRAINING GUIDE/2. GIAO AN/Android 9.5 days/Project/MusicPlayer/app/src/main/res/menu/mymenu.xml" value="0.1" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/boder_button.xml" value="0.1775" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/ic_add_photo_70.xml" value="0.2375" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/drawable/ic_audio.xml" value="0.1775" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_dong_cong_viec.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_edit_alarm.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_infor.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_karaoke.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_new_alarm.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_note.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_question_math.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_set_background.xml" value="0.1" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/activity_wake_up.xml" value="0.24010416666666667" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/dialog_select_city.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/dialog_set_background.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/dialog_sua.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/dialog_them_cong_viec.xml" value="0.29683698296836986" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/dong_cong_viec.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/fragment_alarm.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/fragment_timer.xml" value="0.1" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/mysong_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/notification_wakeup.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/notify_player.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/layout/record_layout.xml" value="0.1" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/menu/add_cong_viec.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/menu/alarm_menu.xml" value="0.21403508771929824" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/menu/backtomain.xml" value="0.25416666666666665" />
+        <entry key="..\:/MusicPlayer/app/src/main/res/menu/mymenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Desktop/Nhom1/MusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.18026315789473685" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/layout/mysong_item.xml" value="0.1" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/layout/record_layout.xml" value="0.1" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/menu/add_cong_viec.xml" value="0.1" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/menu/backtomain.xml" value="0.1" />
+        <entry key="..\:/Users/SVMC/Desktop/File/FINAL/MusicPlayer/app/src/main/res/menu/mymenu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

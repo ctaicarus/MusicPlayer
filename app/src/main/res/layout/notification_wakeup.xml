@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="130dp"
+    android:background="@drawable/happiness">
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:text="Giải toán để tắt chuông"
+            android:textColor="#065951"
+            android:textSize="23sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note_noti_wakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Báo thức"
+        android:textColor="#171616"
+        android:textSize="23sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/btn_go_to_math"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/linear1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/problem"></ImageView>
+
+    <ImageView
+        android:id="@+id/notiimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_alarm"></ImageView>
+
+
+</RelativeLayout>

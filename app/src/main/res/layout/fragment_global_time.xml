@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controll_alarm.globalTime">
+
+    <TextView
+        android:id="@+id/globalTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giờ Quốc tế"
+        android:textSize="50dp"
+        android:textColor="#21211f"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <HorizontalScrollView
+        android:id="@+id/HnCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/globalTimeTV"
+        android:scrollbarThumbHorizontal="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Hà Nội"
+            android:textColor="#21211f"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tvNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Hôm nay, +7G"
+            android:textColor="#21211f"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gltime"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:textColor="#21211f"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="107dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#FF3333"
+        android:backgroundTintMode="add"
+        android:text="Xóa"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

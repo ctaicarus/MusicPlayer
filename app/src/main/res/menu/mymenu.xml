@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/purple_200">
+    <item
+        android:id="@+id/mnNote"
+        android:title="Alarm"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/mnInfor"
+        android:title="Background"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/btnRecordActivity"
+        android:title="Record storage"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/mnKara"
+        android:title="Karaoke"
+        android:orderInCategory="100" />
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.musicplayer">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"></uses-permission>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dianhac"
+        android:label="Media"
+        android:roundIcon="@drawable/dianhac"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MusicPlayer"
+        tools:targetApi="31">
+        <activity
+            android:name=".controll_alarm.NoteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.setBackground"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.KaraokeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".controll_alarm.Edit_Alarm"
+            android:exported="false" />
+        <activity
+            android:name=".controll_alarm.CreateNewAlarm"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RecordActivity"/>
+
+        <receiver
+            android:name=".broadcast.AlarmReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.RingtonePlayingService"/>
+    </application>
+
+</manifest>
